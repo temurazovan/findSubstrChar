@@ -16,11 +16,7 @@ int main() {
     const char* text = "Hello world!";
     const char* word = "wor";
     const char* word2 = "el";
-//    if (findSubStr(text, word)) {
-//        std::cout << "Yes";
-//    } else {
-//        std::cout << "No";
-//    }
+
     std::cout << findSubStr(text, word) << std::endl;
     std::cout << findSubStr(text, word2) << std::endl;
 
